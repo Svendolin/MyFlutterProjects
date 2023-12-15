@@ -1,15 +1,15 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'; // Importiert verschiedene Widgets, die für die Erstellung von Material Design verwendet werden.
 
-void main() {
+void main() { // Einstiegsfunktion für die App!
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+  // This widget is the root of your application. (Dieses Widget ist der Wurzelknoten Ihrer Anwendung.)
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) { // Soll als erstes aufgerufen werden, wenn die App gestartet wird.
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
