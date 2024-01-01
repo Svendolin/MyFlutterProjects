@@ -39,8 +39,8 @@ class HomePage extends StatelessWidget {
           alignment: Alignment.center, // Um das Icon in die Mitte zu setzen UND dass überhaupt height und width funktionieren
           width: 37,
           child: SvgPicture.asset('assets/icons/dots.svg',
-          height: 20,
-          width: 20,),
+          height: 5,
+          width: 5,),
         ),
         ],
       ),
